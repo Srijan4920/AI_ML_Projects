@@ -50,7 +50,7 @@ The dataset `loan_detection.csv` was provided via WhatsApp group and includes th
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/loan-classification.git
+git clone https://github.com/Srijan4920/loan-classification.git
 cd loan-classification
 jupyter notebook Loan_Classification_Project.ipynb
 
