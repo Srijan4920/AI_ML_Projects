@@ -8,7 +8,7 @@ Welcome to my collection of Artificial Intelligence and Machine Learning project
 
 | Project Name | Description | Link |
 |--------------|-------------|------|
-| 🏦 Loan Classification | Predict whether a loan should be approved or not based on applicant data. | [View Project ➡️](./Loan_Classification/) |
+| 🏦 Loan Classification | Predict whether a loan should be approved or not based on applicant data. | [View Project ➡️](https://github.com/Srijan4920/AI_ML_Projects/tree/main/Loan_Classification_Project) |
 | 🧠 Add More Projects | Add new ML projects as folders here. | _Coming Soon..._ |
 
 ---
