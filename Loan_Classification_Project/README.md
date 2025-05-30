@@ -1,56 +1,59 @@
-# Credit Risk Modelling - Loan Classification
+# 📊 Loan Classification - Credit Risk Modelling
 
-## 📌 Objective
-This project aims to develop a machine learning model that classifies loan applicants based on their likelihood of loan repayment. The model helps identify potential risks associated with loan issuance, thereby aiding in effective decision-making for financial institutions.
+This machine learning project focuses on predicting the likelihood of loan repayment by classifying applicants based on various features.
 
----
+## 🧠 Objective
 
-## 📂 Dataset
-The dataset `loan_detection.csv` was provided via WhatsApp group and includes the following key features:
+To build a classification model that determines whether a loan application should be **approved** or **rejected** based on applicant details.
 
-- **ApplicantIncome**
-- **CoapplicantIncome**
-- **LoanAmount**
-- **Loan_Amount_Term**
-- **Credit_History**
-- **Gender, Married, Dependents, Education, Self_Employed**
-- **Property_Area**
-- **Loan_Status** (Target Variable)
+## 📁 Dataset
 
----
+The dataset used: `loan_detection.csv`
 
-## 🔧 Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- Jupyter Notebook
+### Features include:
+- Gender
+- Marital Status
+- Education
+- Applicant Income
+- Loan Amount
+- Credit History
+- Property Area
+- And more...
 
----
+### Target:
+- `Loan_Status`: Y (Approved), N (Rejected)
 
-## 🔄 Workflow
+## 🛠️ ML Workflow
 
-1. **Data Loading**
-2. **Preprocessing**
-3. **Feature Engineering**
-4. **Model Building**
-5. **Model Evaluation**
-6. **Model Persistence**
+1. Data Loading & Inspection  
+2. Missing Value Handling  
+3. Feature Engineering  
+4. Label Encoding  
+5. Train-Test Split  
+6. Model Training (Logistic Regression, Random Forest)  
+7. Model Evaluation (Accuracy, Confusion Matrix)
 
----
+## 🔍 Libraries Used
 
-## ✅ Results
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- joblib (for model serialization)
 
-- **Best Model**: Random Forest Classifier
-- **Observations**: Performs well on both balanced and imbalanced classes.
+## 📈 Model Performance
 
----
+| Model              | Accuracy |
+|--------------------|----------|
+| Logistic Regression| 80%      |
+| Random Forest      | 83%      |
 
-## 🚀 How to Run
+## 💾 File Structure
 
 ```bash
-# Clone the repo
-git clone https://github.com/Srijan4920/loan-classification.git
-cd loan-classification
-jupyter notebook Loan_Classification_Project.ipynb
-
+Loan_Classification/
+├── Loan_Classification_Project.ipynb
+├── loan_detection.csv
+├── model.pkl
+└── README.md
