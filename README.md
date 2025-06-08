@@ -9,7 +9,7 @@ Welcome to my collection of Artificial Intelligence and Machine Learning project
 | Project Name | Description | Link |
 |--------------|-------------|------|
 | 🏦 Loan Classification | Predict whether a loan should be approved or not based on applicant data. | [View Project ➡️](https://github.com/Srijan4920/AI_ML_Projects/tree/main/Loan_Classification_Project) |
-| 🧠 Add More Projects | Add new ML projects as folders here. | _Coming Soon..._ |
+| 💼 Jobs Analysis | This project delivers a comprehensive analysis of job market trends, focusing on demand for roles, skill requirements, salary benchmarks, and top employers | _Coming Soon..._ |
 
 ---
 
